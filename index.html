@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Strange</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            padding: 0; margin: 0;
+            background-color: #231D23;
+            font-family: 'Montserrat';
+            color: #efefef;
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .header{
+            background-color: transparent;
+            top: 0; left: 0; right: 0;
+            margin: auto;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header a{
+            color: #efefef;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 3%;
+        }
+        a{
+            color: #2f51e7;
+            font-size: 1.1rem;
+            font-weight: 200;
+            text-decoration: none;   
+        }
+        h1{
+            font-weight: 700;
+            color: #efefef;
+            margin: auto;
+            font-size: 2.5rem;
+            width: max-content;
+            text-align: center;
+            padding: 3%;
+        }
+        h2{
+            font-size: 2rem;
+            color: #efefef;
+            letter-spacing: 5px;
+            font-weight: 700;
+            padding: 2%;
+            padding-left: 4%;
+            margin: 1% 0 0 0;
+            position: relative;
+        }
+        h2::before{
+            content: "";
+            position: absolute;
+            background-color: #d62828;
+            left: 2%; top: 5%;
+            width: 0.5%;
+            height: 60%;
+
+        }
+        .cards *{
+            box-sizing: border-box;
+        }
+        .pictures{
+            display: flex;
+            align-items: center;
+            width: 95%;
+            padding: 2%;
+            margin: auto;
+            margin-top: 2%;
+            background-color: #d6282859;
+            border-radius: 10px;
+            justify-self: center;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+        }
+        .pictures img{
+            width:200px;
+            height: 100%;
+        }
+        .pictures::-webkit-scrollbar{
+            display: none;
+        }
+        p{
+            padding: 0 3% 0 3%;
+        }
+        b{
+            padding: 0 2% 0 2%;
+            color: #d62828;
+        }
+        .sl{
+            width: 60%;
+            margin-top: 0;
+        }
+        .pic{
+            height: 400px;
+            margin: auto 2% auto 2% ;
+            border: 0;
+        }
+        .pic img{
+            border-radius: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="doctor strange.png" alt="" width="100%">
+    <div class="header">
+            <a href="home.html">Home</a>
+            <a href="trailer.html">Trailer</a>
+            <a href="Cast.html">Cast</a>
+            <a href="https://www.imdb.com/title/tt9419884/?ref_=nv_sr_srsg_0">More</a>
+    </div>
+    <h1>Doctor Strange in the Multiverse of Madness</h1>
+    <h2>Movie Details:</h2>
+    <p><b>Director: </b> <a href="https://en.wikipedia.org/wiki/Sam_Raimi"> Sam Raimi</a></p>
+    <p><b>Writers: </b> <a href="https://www.imdb.com/name/nm5642271/?ref_=tt_ov_wr"> Michael Waldron </a>
+        <a href="https://www.imdb.com/name/nm0228492/?ref_=ttfc_fc_wr3"> Steve Ditko</a></p>
+    <p><b>Genre: </b>Action, Adventure, Fantasy, Horror, Sci-fi</p>
+    <p><b>Language: </b>English</p>
+    <p><b>Production Company: </b>Marvel Studios</p>
+    
+    <h2>StoryLine</h2>
+    <p class="sl">Dr. Stephen Strange casts a forbidden spell that opens the doorway to the multiverse, including alternate 
+        versions of himself, whose threat to humanity is too great for the combined forces of Strange, Wong, and Wanda Maximoff.</p>
+
+    <h2>Movie Pictures</h2>
+    <div class="cards">
+        <div class="pictures">
+            <div class="pic">
+                <img src="7.jpg" alt="" style="object-fit: cover;">
+            </div>
+            <div class="pic">
+                <img src="1.jpg" alt=""  style="object-fit: cover;">
+            </div>
+            <div class="pic">
+            <img src="2.jpg" alt="" style="object-fit: cover;">
+            </div>
+            <div class="pic">
+            <img src="3.jpg" alt="" style="object-fit: cover;">
+            </div>
+            <div class="pic">
+            <img src="4.jpg" alt="" style="object-fit: cover;">
+            </div>
+            <div class="pic">
+            <img src="5.jpg" alt="" style="object-fit: cover;">
+            </div>
+            <div class="pic">
+            <img src="6.jpg" alt="" style="object-fit: cover;">
+            </div>
+    </div>
+</div>
+</body>
+</html>
